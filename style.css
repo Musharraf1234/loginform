@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/Capture.PNG);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.loginpage{
+    height: 450px;
+    width: 550px;
+    background-color: rgb(71, 130, 219);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    opacity: 0.6;
+    
+    
+}
+.input{
+    height: 50%;
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 74px;
+    position: absolute;
+    right: 450px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 38px;
+    border-radius: 20px;
+    font-size: 13px;
+  }
+.img h1{
+   margin-left: 190px;
+   margin-top: 20px;
+   font-family: 'Lobster', cursive;
+   color: rgb(111, 219, 134)
+   
+
+    
+}
+button:hover {
+   background-color: aqua;
+   color: black;
+  }
+.img{
+    position: absolute;
+    z-index: 1;
+    bottom: 430px;
+    right: 530px;
+}
+.input  input{
+    height: 30px;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 15px;
+    
+
+}
+
+
+.psw{
+    color: white;
+    margin-left: 250px;
+}
+.psw a{
+    color: white;
+   
+}
+.usr{
+    color: white;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.usr a{
+    color: white;
+}
+
+
+.input label{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+}
+.check{
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.check input{
+    height: 13px;
+    
+}
+
+@media screen and (max-width: 750px) {
+    .input{
+      
+       left: 10px;
+       width: 300px;
+      
+    
+    }
+    .loginpage h1{
+        margin-right: 200px;
+        display: flex;
+       
+    }
+    .container{
+        background-image: none;
+    }
+    .img{
+        left: -10px;
+       
+    }
+    .loginpage{
+        background-color: white;
+    }
+    button{
+        margin-top: 30px;
+    }
+    .input label{
+        margin-top: 20px;
+        margin-left: 40px;
+        color: black;
+    }
+    .psw a{
+        color: black;
+       
+    }
+    .usr a{
+        color: black;
+    }
+    .usr{
+        color: black;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+    
+.psw{
+    color: black;
+    margin-left: 250px;
+}
+}
